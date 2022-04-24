@@ -40,6 +40,20 @@ public class LineComparision {
         else
             System.out.println("Lines are not equals...");
 
+        // Comparing two line by using compareTo method
+
+        int result1 = length1.compareTo(length2);
+        if(result1 > 0) {
+            System.out.println("Line 1 are greater ");
+        }
+        else if(result1 < 0) {
+            System.out.println("Line2 is greater");
+        }
+        else
+        {
+            System.out.println("both line are equal");
+        }
+
     }
 
     }
