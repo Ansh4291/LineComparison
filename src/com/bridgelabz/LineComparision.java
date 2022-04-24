@@ -29,6 +29,17 @@ public class LineComparision {
 
         Integer length2 = (int)Math.sqrt((c2-c1)*2 + (d2-d1)*2);
         System.out.println("Length of second line is : " + length2);
+
+
+        //Calculating the Length is equal or not by using java equal method
+
+        boolean result = length1.equals(length2);
+
+        if (result == true)
+            System.out.println("Length of lines are same...");
+        else
+            System.out.println("Lines are not equals...");
+
     }
 
     }
